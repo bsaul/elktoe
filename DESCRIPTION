@@ -1,0 +1,15 @@
+Package: elktoe
+Title: What the package does (short line)
+Version: 0.1
+Authors@R: "First Last <first.last@example.com> [aut, cre]"
+Description: What the package does (paragraph)
+Depends:
+    R (>= 3.1.1),
+    ggplot2(>= 1.0.0),
+    lubridate(>= 1.3.3),
+    scales(>= 0.2.4),
+    dplyr(>= 0.4.1),
+    reshape2(>= 1.4.1)
+License: What license is it under?
+LazyData: true
+RoxygenNote: 6.0.1

@@ -1,0 +1,276 @@
+---
+title: "Summary of Mussel Outcomes"
+author: "Bradley Saul"
+date: "July 9, 2015"
+output: pdf_document
+---
+```{r, echo=FALSE, message=FALSE, warning=FALSE, include=FALSE}
+library(elktoe)
+#river$date_ <- mdy(river$date)
+elktoe <- subset(mussels_wide, species == 'A. raveneliana')
+elktoe <- elktoe[order(elktoe$river, decreasing = TRUE), ]
+```
+
+
+## Baseline comparisons by River and Species
+- Quick boxplot summaries to see if randomization balance the weight and volumes of mussels by river per species.
+- Buoyant weights were not available for L. fasciola. Dry weights not available for A. raveneliana.
+
+## Baseline: Buoyant weight
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+mussel_boxplot('buoyant_weight_g_0')
+```
+
+## Baseline: Buoyant weight: by site
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+mussel_boxplot_site('buoyant_weight_g_0', 'A. raveneliana')
+```
+
+## Baseline: Dry weight
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+mussel_boxplot('dry_weight_g_0')
+```
+
+## Baseline: Dry weight: by site
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+mussel_boxplot_site('dry_weight_g_0', 'L. fasciola')
+```
+
+## Baseline: Volume
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+mussel_boxplot('volume_0')
+```
+
+## Baseline: Volume: A. raveneliana: by site
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+mussel_boxplot_site('volume_0', 'A. raveneliana')
+```
+
+## Baseline: Volume: L. fasciola: by site
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+mussel_boxplot_site('volume_0', 'L. fasciola')
+```
+
+## Baseline: comments
+
+On quick glance, each species appears fairly balanced in each river. The number of mussels are small, so the differences in boxplots aren't surprising. 
+
+## Pre-Post Changes
+- All changes are paired differences between first measurements (4/6/13) and last measurements (either 8/19/13, 9/19/13, or 5/6/14). 
+- Missing values are noted in the tables and missingness may be due to death of a mussel or other reasons. 
+- Fewer values are missing for volume because L/W/H measurements could be taken on dead organisms.
+
+## Change: Buoyant Weight
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+mussel_boxplot('buoyant_weight_g_d')
+```
+
+## Change: Buoyant Weight
+```{r, echo=FALSE, warning=FALSE, message=FALSE, results = 'asis'}
+cat("Species | River | Mean | Min | Median | Max | Missing | Dead | %Dead ", 
+    "--- | --- | --- | --- | --- | --- | --- | --- | ---", sep="\n")
+cat(apply(summarize_mussel('buoyant_weight_g_d', c('species', 'river')), 
+          1, function(X) paste(X, collapse=" | ")), sep = "\n")
+```
+
+
+```{r, echo=FALSE, warning=FALSE}
+ar <- mussels_wide[mussels_wide$species == 'A. raveneliana', ]
+wilcox.test(ar$buoyant_weight_g_d ~ ar$river)
+```
+
+
+## Change: Buoyant Weight: by site
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+mussel_boxplot_site('buoyant_weight_g_d', 'A. raveneliana')
+```
+
+## Change: Dry Weight
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+mussel_boxplot('dry_weight_g_d')
+```
+
+## Change: Dry Weight
+```{r, echo=FALSE, warning=FALSE, message=FALSE, results = 'asis'}
+cat("Species | River | Mean | Min | Median | Max | Missing | Dead | %Dead ", 
+    "--- | --- | --- | --- | --- | --- | --- | --- | ---", sep="\n")
+cat(apply(summarize_mussel('dry_weight_g_d', c('species', 'river')), 
+          1, function(X) paste(X, collapse=" | ")), sep = "\n")
+```
+
+```{r, echo=FALSE, warning=FALSE}
+lf <- mussels_wide[mussels_wide$species == 'L. fasciola', ]
+wilcox.test(lf$dry_weight_g_d ~ lf$river)
+```
+
+## Change: Dry Weight: by site
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+mussel_boxplot_site('dry_weight_g_d', 'A. raveneliana')
+```
+
+## Change: Volume
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+mussel_boxplot('volume_d')
+```
+
+## Change: Volume
+```{r, echo=FALSE, warning=FALSE, message=FALSE, results = 'asis'}
+cat("Species | River | Mean | Min | Median | Max | Missing | Dead | %Dead ", 
+    "--- | --- | --- | --- | --- | --- | --- | --- | ---", sep="\n")
+cat(apply(summarize_mussel('volume_d', c('species', 'river')), 
+          1, function(X) paste(X, collapse=" | ")), sep = "\n")
+```
+
+## Change: Volume
+Statistical tests for changes in volume (median):
+
+A. ravenenliana
+```{r, echo=FALSE, warning=FALSE}
+wilcox.test(ar$volume_d ~ ar$river)
+```
+
+L. fasciola
+```{r, echo=FALSE, warning=FALSE}
+wilcox.test(lf$volume_d ~ lf$river)
+```
+
+## Change: Volume: A. raveneliana: by site
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+mussel_boxplot_site('volume_d', 'A. raveneliana')
+```
+
+## Change: Volume: L. fasciola: by site
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+mussel_boxplot_site('volume_d', 'L. fasciola')
+```
+
+## Change: Comments
+
+- Outliers should be investigated. Are these true outliers or were measurements incorrectly recorded?
+- L. fasciola gained dry weight in both rivers. 
+- A. raveneliana lost weight in both rivers - there may be a difference between the two rivers in loss of buoyant weight. One has to keep in mind that dead mussels did not contribute to weight measurements.
+
+## A. raveneliana Weight
+
+```{r, echo=FALSE,  warning = FALSE, message = FALSE}
+mussel_plot('A. raveneliana', 'buoyant_weight_g')
+```
+    
+## A. raveneliana volume
+```{r, echo=FALSE, warning = FALSE, message = FALSE}
+mussel_plot('A. raveneliana', 'volume')
+```
+     
+## L. fasciola weight
+
+```{r, echo=FALSE, warning = FALSE, message = FALSE}
+mussel_plot('L. fasciola', 'dry_weight_g')
+```
+
+## L. fasciola volume
+```{r, echo=FALSE, warning = FALSE, message = FALSE}
+mussel_plot('L. fasciola', 'volume')
+```
+
+## A. raveneliana: % mortaliy:
+```{r, echo=FALSE, warning = FALSE, message = FALSE}
+temp <- ddply(mussels_wide, .(species, river, site), summarize,
+              mortality = mean(dead, na.rm= T))
+temp$site_order <- with(temp, substr(site, 6, 6))
+ggplot(temp, aes(x = site_order, y = mortality)) + geom_bar(stat = 'identity') +
+  facet_grid(river ~ species) + 
+  theme_classic()
+
+```
+
+## A. raveneliana: lost 10% of BW or died:
+```{r, echo=FALSE, warning = FALSE, message = FALSE}
+temp <- ddply(elktoe, .(river), summarize,
+              mean_lost_dead = mean(lost_10_or_dead, na.rm= T))
+mussel_barchart(temp, 'river', 'mean_lost_dead', '% lost 10% of body weight or died')
+```
+
+## A. raveneliana: lost 10% of BW or died: by site
+```{r, echo=FALSE, warning = FALSE, message = FALSE}
+temp <- ddply(elktoe, .(river, site), summarize,
+              mean_lost_dead = mean(lost_10_or_dead, na.rm= T))
+mussel_barchart(temp, 'site', 'mean_lost_dead', '% lost 10% of body weight or died')
+```
+
+
+## A. raveneliana: change in body weight by corbicula density: by site
+```{r, echo=FALSE, warning = FALSE, message = FALSE}
+cc <- coef(lm(buoyant_weight_g_d ~ corb_density_0, data = elktoe))
+
+ggplot(elktoe, aes(x = corb_density_0, y=buoyant_weight_g_d, color = river)) +
+    geom_point() + geom_hline(yintercept = 0) +
+    scale_fill_brewer(guide = 'none', palette = 'Set2', c) +
+    geom_abline(intercept = cc[1], slope = cc[2], color = 'blue') + 
+    xlab('Corbicula Density') + ylab('Change in buoyant weight (g)') +
+    theme_classic() +
+    theme(legend.key = element_blank(), legend.title = element_blank())
+```
+
+## A. raveneliana: proportion change in body weight by corbicula density: by site
+```{r, echo=FALSE, warning = FALSE, message = FALSE}
+cc <- coef(lm(p_buoyant_weight_d ~ corb_density_0, data = elktoe))
+
+ggplot(elktoe, aes(x = corb_density_0, y=p_buoyant_weight_d, color = river)) +
+    geom_point() + geom_hline(yintercept = 1) +
+    scale_fill_brewer(guide = 'none', palette = 'Set2', c) +
+    geom_abline(intercept = cc[1], slope = cc[2], color = 'blue') + 
+    xlab('Corbicula Density') + ylab('Proportion change in buoyant weight (g)') +
+    theme_classic() +
+    theme(legend.key = element_blank(), legend.title = element_blank())
+```
+
+
+## A. raveneliana: % died by corbicula density
+```{r, echo=FALSE, warning = FALSE, message = FALSE}
+temp <- ddply(elktoe, .(river, corb_density_0, site), summarize,
+              mean_dead = mean(dead, na.rm= T))
+ggplot(temp, aes(x = corb_density_0, y=mean_dead, color = river, 
+                 label = site)) +
+    geom_point() + geom_text(hjust=.5, vjust=-1, size = 3.5) + 
+    scale_color_brewer(guide = 'none', palette = 'Set2') +
+    xlab('Corbicula Density') + ylab('% Died') +
+    theme_classic() +
+    scale_y_continuous(limits = c(0, 1)) +
+    theme(legend.key = element_blank(), legend.title = element_blank())
+```
+
+## A. raveneliana: % dies or lost any weight by corbicula density
+```{r, echo=FALSE, warning = FALSE, message = FALSE}
+temp <- ddply(elktoe, .(river, corb_density_0, site), summarize,
+              mean_lost_dead = mean(lost_wt_or_dead, na.rm= T))
+ggplot(temp, aes(x = corb_density_0, y=mean_lost_dead, color = river, 
+                 label = site)) +
+    geom_point() + geom_text(hjust=.5, vjust=-1, size = 3.5) + 
+    scale_color_brewer(guide = 'none', palette = 'Set2') +
+    xlab('Corbicula Density') + ylab('% Died or lost any weight') +
+    theme_classic() +
+    scale_y_continuous(limits = c(0, 1)) +
+    theme(legend.key = element_blank(), legend.title = element_blank())
+```
+
+## A. raveneliana: % dies or lost more than 10% of BW by corbicula density
+```{r, echo=FALSE, warning = FALSE, message = FALSE}
+temp <- ddply(elktoe, .(river, corb_density_0, site), summarize,
+              mean_lost_dead = mean(lost_10_or_dead, na.rm= T))
+ggplot(temp, aes(x = corb_density_0, y=mean_lost_dead, color = river, 
+                 label = site)) +
+    geom_point() + geom_text(hjust=.5, vjust=-1, size = 3.5) + 
+    scale_color_brewer(guide = 'none', palette = 'Set2') +
+    xlab('Corbicula Density') + ylab('% Died or lost > 10% of BW') +
+    theme_classic() +
+    scale_y_continuous(limits = c(0, 1)) +
+    theme(legend.key = element_blank(), legend.title = element_blank())
+```

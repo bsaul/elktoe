@@ -1,0 +1,38 @@
+---
+output:
+  Grmd::docx_document:
+    fig_caption: TRUE
+    force_captions: TRUE
+---
+
+```{r libraries, echo=FALSE, message=FALSE}
+library(elktoe)
+library(grid)
+library(Grmd)
+library(htmlTable)
+
+```
+
+```{r colors, echo=FALSE}
+# Based on 3-class Paired from colorbrewer.org
+color.LiTN <- "#1f78b4"
+color.Tuck <- "#b2df8a"
+```
+
+```{r corbicula_table, echo = F}
+corbicula %>%
+  select(river, site, corb_density) %>%
+  mutate(siteno  = substr(site, 6, 6),
+         density = round(corb_density, 1)) %>%
+  select(river, siteno, density) %>%
+  t() %>%
+  .[3, ] %>%
+  htmlTable(., 
+            cgroup = rbind(c("LiTN", "Tuck", NA, NA, NA, NA),
+                           c("1", "2", "3", "1", "2", "3") ),
+            n.cgroup = rbind(c(3, 3, NA, NA, NA, NA),
+                             c(1, 1, 1, 1, 1, 1) ),
+            caption  = "Table 2. Corbicula density (UNITS) proximal to each site")
+
+
+```

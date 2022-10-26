@@ -1,0 +1,84 @@
+---
+output:
+  Grmd::docx_document:
+    fig_caption: TRUE
+    force_captions: TRUE
+---
+
+```{r libraries, echo=FALSE, message=FALSE}
+library(elktoe)
+library(grid)
+library(Grmd)
+library(htmlTable)
+
+```
+
+```{r colors, echo=FALSE}
+# Based on 3-class Paired from colorbrewer.org
+color.LiTN <- "#1f78b4"
+color.Tuck <- "#b2df8a"
+```
+
+
+```{r table1, echo=FALSE}
+mean.round <- 0
+sd.round   <- 1
+
+table_cell <- function(mean, sd, min, max){
+  paste0(round(mean, mean.round), ' (', round(sd, sd.round), ') [', 
+         round(min, mean.round), ',', round(max, mean.round), ']')
+}
+
+
+mussels %>%
+  filter(post == 0) %>%
+  group_by(species, river) %>%
+  summarise(n = n(),
+            min.bweight  = min(buoyant_weight_g),
+            max.bweight  = max(buoyant_weight_g),
+            mean.bweight = mean(buoyant_weight_g) ,
+            sd.bweight   = sd(buoyant_weight_g) ,
+            
+            min.dweight  = min(dry_weight_g),
+            max.dweight  = max(dry_weight_g),
+            mean.dweight = mean(dry_weight_g) ,
+            sd.dweight   = sd(dry_weight_g) ,  
+            
+            min.length  = min(length_mm),
+            max.length  = max(length_mm),
+            mean.length = mean(length_mm),
+            sd.length   = sd(length_mm),
+            
+            min.width   = min(width_mm),
+            max.width   = max(width_mm),
+            mean.width  = mean(width_mm),
+            sd.width    = sd(width_mm),
+            
+            min.height  = min(height_mm, na.rm = T),
+            max.height   = max(height_mm, na.rm = T),
+            mean.height = mean(height_mm, na.rm = T),
+            sd.height   = sd(height_mm, na.rm   = T ) ) %>%
+  mutate(   
+            min.weight  = ifelse(species == 'A. raveneliana', min.bweight, min.dweight),
+            max.weight  = ifelse(species == 'A. raveneliana', max.bweight, max.dweight),
+            mean.weight = ifelse(species == 'A. raveneliana', mean.bweight, mean.dweight),
+            sd.weight   = ifelse(species == 'A. raveneliana', sd.bweight, sd.dweight) ) %>%
+  
+  mutate(   weight      = table_cell(mean.weight, sd.weight, min.weight, max.weight),
+            length      = table_cell(mean.length, sd.length, min.length, max.length),
+            width       = table_cell(mean.width, sd.width, min.width, max.width),
+            height      = table_cell(mean.height, sd.height, min.height, max.height),
+            height      = ifelse(species == 'A. raveneliana' & river == 'Tuckasegee',
+                                 paste0(height, '<sup>&#42;</sup>'), height ) ) %>%
+  select(species, river, weight, length, width, height) %>%
+  t() %>%
+  .[3:6, ] %>%
+  htmlTable(., 
+            cgroup = rbind(c("<i>A. raveneliana</i>", "<i>L. fasciola</i>", NA, NA),
+                           c("LiTN", "Tuck", "LiTN", "Tuck") ),
+            n.cgroup = rbind(c(2, 2, NA, NA),
+                             c(1, 1, 1, 1) ),
+            rnames   = c("Weight(g)<sup>&dagger;</sup>", "Length(mm)", "Width(mm)", "Height(mm)" ),
+            caption  = "Table 1. Baseline characteristics were well balanced between rivers within each species. n = 36 for each species in each river. Values are mean (standard deviation) [min, max].",
+            tfoot    = "<sup>&dagger;</sup> Buoyant weight for <i>A. ravenliana</i>. Dry weight for <i>L. fasciola</i>. <sup>&#42;</sup>Missing one value.")
+```

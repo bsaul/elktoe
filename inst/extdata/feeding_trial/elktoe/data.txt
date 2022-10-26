@@ -1,0 +1,437 @@
+date time	sample name	count type	cell count	dilution factor	concentration	result type	result	mean diameter	assay type	cell type
+06/13/2014 11:56:37	new sample	BR	239	1.0	       2.65e+006	  	  	  6.1	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 11:56:37	new sample	FL	178	1.0	       1.95e+006	  	  	  4.7	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 11:56:37	new sample	BR-FL	61	1.0	       7.00e+005	BR-FL/BR	 26.4%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 11:58:23	new sample	BR	237	1.0	       2.64e+006	  	  	  6.4	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 11:58:23	new sample	FL	173	1.0	       1.90e+006	  	  	  5.0	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 11:58:23	new sample	BR-FL	64	1.0	       7.35e+005	BR-FL/BR	 27.9%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 11:59:53	new sample	BR	211	1.0	       2.33e+006	  	  	  5.6	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 11:59:53	new sample	FL	166	1.0	       1.82e+006	  	  	  4.2	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 11:59:53	new sample	BR-FL	45	1.0	       5.18e+005	BR-FL/BR	 22.2%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 12:01:31	new sample	BR	225	1.0	       2.50e+006	  	  	  6.1	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 12:01:31	new sample	FL	161	1.0	       1.76e+006	  	  	  4.5	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 12:01:31	new sample	BR-FL	64	1.0	       7.33e+005	BR-FL/BR	 29.3%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 12:03:05	new sample	BR	280	1.0	       3.13e+006	  	  	  7.0	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 12:03:05	new sample	FL	195	1.0	       2.14e+006	  	  	  4.8	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 12:03:05	new sample	BR-FL	85	1.0	       9.89e+005	BR-FL/BR	 31.6%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 12:04:35	new sample	BR	261	1.0	       2.92e+006	  	  	  6.9	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 12:04:35	new sample	FL	167	1.0	       1.84e+006	  	  	  4.9	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 12:04:35	new sample	BR-FL	94	1.0	       1.08e+006	BR-FL/BR	 37.1%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 12:06:17	new sample	BR	252	1.0	       2.80e+006	  	  	  6.1	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 12:06:17	new sample	FL	179	1.0	       1.96e+006	  	  	  4.5	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 12:06:17	new sample	BR-FL	73	1.0	       8.35e+005	BR-FL/BR	 29.9%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 12:08:10	new sample	BR	220	1.0	       2.45e+006	  	  	  6.3	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 12:08:10	new sample	FL	163	1.0	       1.79e+006	  	  	  4.7	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 12:08:10	new sample	BR-FL	57	1.0	       6.58e+005	BR-FL/BR	 26.9%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 12:09:47	new sample	BR	232	1.0	       2.58e+006	  	  	  6.2	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 12:09:47	new sample	FL	170	1.0	       1.87e+006	  	  	  4.7	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 12:09:47	new sample	BR-FL	62	1.0	       7.12e+005	BR-FL/BR	 27.6%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 12:12:05	new sample	BR	273	1.0	       3.04e+006	  	  	  6.6	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 12:12:05	new sample	FL	148	1.0	       1.62e+006	  	  	  4.7	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 12:12:05	new sample	BR-FL	125	1.0	       1.42e+006	BR-FL/BR	 46.6%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 12:14:08	new sample	BR	337	1.0	       3.77e+006	  	  	  7.1	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 12:14:08	new sample	FL	107	1.0	       1.19e+006	  	  	  6.2	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 12:14:08	new sample	BR-FL	230	1.0	       2.58e+006	BR-FL/BR	 68.5%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 12:15:47	new sample	BR	217	1.0	       2.41e+006	  	  	  6.1	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 12:15:47	new sample	FL	171	1.0	       1.88e+006	  	  	  4.6	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 12:15:47	new sample	BR-FL	46	1.0	       5.34e+005	BR-FL/BR	 22.2%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 13:29:49	new sample	BR	226	1.0	       2.52e+006	  	  	  6.9	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 13:29:49	new sample	FL	105	1.0	       1.16e+006	  	  	  5.4	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 13:29:49	new sample	BR-FL	121	1.0	       1.37e+006	BR-FL/BR	 54.1%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 13:30:58	new sample	BR	239	1.0	       2.66e+006	  	  	  6.5	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 13:30:58	new sample	FL	123	1.0	       1.35e+006	  	  	  4.6	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 13:30:58	new sample	BR-FL	116	1.0	       1.31e+006	BR-FL/BR	 49.3%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 13:32:44	new sample	BR	281	1.0	       3.12e+006	  	  	  6.3	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 13:32:44	new sample	FL	124	1.0	       1.36e+006	  	  	  5.0	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 13:32:44	new sample	BR-FL	157	1.0	       1.76e+006	BR-FL/BR	 56.3%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 13:34:42	new sample	BR	287	1.0	       3.19e+006	  	  	  6.2	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 13:34:42	new sample	FL	174	1.0	       1.90e+006	  	  	  4.1	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 13:34:42	new sample	BR-FL	113	1.0	       1.29e+006	BR-FL/BR	 40.4%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 13:36:14	new sample	BR	232	1.0	       2.58e+006	  	  	  6.2	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 13:36:14	new sample	FL	144	1.0	       1.58e+006	  	  	  4.6	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 13:36:14	new sample	BR-FL	88	1.0	       9.99e+005	BR-FL/BR	 38.7%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 13:37:54	new sample	BR	257	1.0	       2.84e+006	  	  	  5.7	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 13:37:54	new sample	FL	174	1.0	       1.90e+006	  	  	  4.1	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 13:37:54	new sample	BR-FL	83	1.0	       9.43e+005	BR-FL/BR	 33.2%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 13:39:49	new sample	BR	248	1.0	       2.74e+006	  	  	  5.6	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 13:39:49	new sample	FL	182	1.0	       1.99e+006	  	  	  4.0	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 13:39:49	new sample	BR-FL	66	1.0	       7.56e+005	BR-FL/BR	 27.6%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 13:41:43	new sample	BR	308	1.0	       3.42e+006	  	  	  6.0	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 13:41:43	new sample	FL	165	1.0	       1.80e+006	  	  	  4.2	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 13:41:43	new sample	BR-FL	143	1.0	       1.61e+006	BR-FL/BR	 47.2%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 13:43:23	new sample	BR	254	1.0	       2.83e+006	  	  	  6.4	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 13:43:23	new sample	FL	176	1.0	       1.92e+006	  	  	  4.1	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 13:43:23	new sample	BR-FL	78	1.0	       9.04e+005	BR-FL/BR	 32.0%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 13:45:02	new sample	BR	239	1.0	       2.65e+006	  	  	  6.0	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 13:45:02	new sample	FL	160	1.0	       1.75e+006	  	  	  4.0	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 13:45:02	new sample	BR-FL	79	1.0	       9.06e+005	BR-FL/BR	 34.1%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 13:46:27	new sample	BR	230	1.0	       2.55e+006	  	  	  6.0	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 13:46:27	new sample	FL	129	1.0	       1.41e+006	  	  	  4.1	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 13:46:27	new sample	BR-FL	101	1.0	       1.14e+006	BR-FL/BR	 44.8%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 13:48:02	new sample	BR	303	1.0	       3.38e+006	  	  	  6.6	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 13:48:02	new sample	FL	162	1.0	       1.78e+006	  	  	  4.5	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 13:48:02	new sample	BR-FL	141	1.0	       1.60e+006	BR-FL/BR	 47.4%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 13:49:49	new sample	BR	250	1.0	       2.78e+006	  	  	  6.4	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 13:49:49	new sample	FL	161	1.0	       1.76e+006	  	  	  4.4	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 13:49:49	new sample	BR-FL	89	1.0	       1.02e+006	BR-FL/BR	 36.6%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 13:51:29	new sample	BR	262	1.0	       2.93e+006	  	  	  7.1	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 13:51:29	new sample	FL	158	1.0	       1.73e+006	  	  	  4.6	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 13:51:29	new sample	BR-FL	104	1.0	       1.20e+006	BR-FL/BR	 40.9%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 13:58:16	new sample	BR	205	1.0	       2.27e+006	  	  	  5.8	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 13:58:16	new sample	FL	141	1.0	       1.54e+006	  	  	  4.3	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 13:58:16	new sample	BR-FL	64	1.0	       7.26e+005	BR-FL/BR	 32.0%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 14:00:20	new sample	BR	234	1.0	       2.60e+006	  	  	  6.1	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 14:00:20	new sample	FL	142	1.0	       1.56e+006	  	  	  4.6	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 14:00:20	new sample	BR-FL	92	1.0	       1.04e+006	BR-FL/BR	 40.1%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 14:01:46	new sample	BR	260	1.0	       2.89e+006	  	  	  6.3	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 14:01:46	new sample	FL	166	1.0	       1.82e+006	  	  	  4.7	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 14:01:46	new sample	BR-FL	94	1.0	       1.07e+006	BR-FL/BR	 37.0%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 14:03:25	new sample	BR	252	1.0	       2.80e+006	  	  	  6.4	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 14:03:25	new sample	FL	145	1.0	       1.59e+006	  	  	  4.2	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 14:03:25	new sample	BR-FL	107	1.0	       1.22e+006	BR-FL/BR	 43.5%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 14:04:53	new sample	BR	279	1.0	       3.12e+006	  	  	  6.9	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 14:04:53	new sample	FL	165	1.0	       1.81e+006	  	  	  4.7	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 14:04:53	new sample	BR-FL	114	1.0	       1.31e+006	BR-FL/BR	 41.9%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 14:06:34	new sample	BR	227	1.0	       2.54e+006	  	  	  6.9	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 14:06:34	new sample	FL	145	1.0	       1.59e+006	  	  	  4.4	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 14:06:34	new sample	BR-FL	82	1.0	       9.49e+005	BR-FL/BR	 37.4%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 14:08:24	new sample	BR	288	1.0	       3.21e+006	  	  	  6.4	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 14:08:24	new sample	FL	121	1.0	       1.33e+006	  	  	  4.4	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 14:08:24	new sample	BR-FL	167	1.0	       1.88e+006	BR-FL/BR	 58.7%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 14:10:30	new sample	BR	270	1.0	       3.00e+006	  	  	  6.4	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 14:10:30	new sample	FL	175	1.0	       1.91e+006	  	  	  4.2	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 14:10:30	new sample	BR-FL	95	1.0	       1.09e+006	BR-FL/BR	 36.3%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 14:11:56	new sample	BR	223	1.0	       2.49e+006	  	  	  6.6	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 14:11:56	new sample	FL	148	1.0	       1.62e+006	  	  	  4.4	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 14:11:56	new sample	BR-FL	75	1.0	       8.66e+005	BR-FL/BR	 34.8%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 14:13:45	new sample	BR	194	1.0	       2.16e+006	  	  	  6.6	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 14:13:45	new sample	FL	164	1.0	       1.79e+006	  	  	  4.2	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 14:13:45	new sample	BR-FL	30	1.0	       3.68e+005	BR-FL/BR	 17.0%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 14:15:08	new sample	BR	214	1.0	       2.38e+006	  	  	  6.3	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 14:15:08	new sample	FL	160	1.0	       1.75e+006	  	  	  4.1	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 14:15:08	new sample	BR-FL	54	1.0	       6.30e+005	BR-FL/BR	 26.5%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 14:17:08	new sample	BR	294	1.0	       3.29e+006	  	  	  7.0	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 14:17:08	new sample	FL	154	1.0	       1.69e+006	  	  	  4.6	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 14:17:08	new sample	BR-FL	140	1.0	       1.60e+006	BR-FL/BR	 48.6%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 14:18:29	new sample	BR	226	1.0	       2.51e+006	  	  	  6.3	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 14:18:29	new sample	FL	144	1.0	       1.57e+006	  	  	  4.2	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 14:18:29	new sample	BR-FL	82	1.0	       9.38e+005	BR-FL/BR	 37.3%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 14:19:53	new sample	BR	186	1.0	       2.06e+006	  	  	  6.0	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 14:19:53	new sample	FL	123	1.0	       1.35e+006	  	  	  4.3	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 14:19:53	new sample	BR-FL	63	1.0	       7.17e+005	BR-FL/BR	 34.7%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 14:30:23	new sample	BR	260	1.0	       2.90e+006	  	  	  6.6	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 14:30:23	new sample	FL	150	1.0	       1.65e+006	  	  	  4.8	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 14:30:23	new sample	BR-FL	110	1.0	       1.25e+006	BR-FL/BR	 43.1%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 14:36:29	new sample	BR	286	1.0	       3.19e+006	  	  	  6.8	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 14:36:29	new sample	FL	145	1.0	       1.59e+006	  	  	  4.4	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 14:36:29	new sample	BR-FL	141	1.0	       1.60e+006	BR-FL/BR	 50.3%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 14:38:04	new sample	BR	271	1.0	       3.03e+006	  	  	  7.1	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 14:38:04	new sample	FL	121	1.0	       1.33e+006	  	  	  4.4	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 14:38:04	new sample	BR-FL	150	1.0	       1.71e+006	BR-FL/BR	 56.3%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 14:41:08	new sample	BR	238	1.0	       2.65e+006	  	  	  6.7	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 14:41:08	new sample	FL	101	1.0	       1.11e+006	  	  	  4.7	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 14:41:08	new sample	BR-FL	137	1.0	       1.55e+006	BR-FL/BR	 58.2%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 14:42:09	new sample	BR	237	1.0	       2.64e+006	  	  	  6.6	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 14:42:09	new sample	FL	112	1.0	       1.23e+006	  	  	  4.3	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 14:42:09	new sample	BR-FL	125	1.0	       1.42e+006	BR-FL/BR	 53.6%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 14:43:38	new sample	BR	267	1.0	       2.99e+006	  	  	  7.1	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 14:43:38	new sample	FL	108	1.0	       1.19e+006	  	  	  4.7	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 14:43:38	new sample	BR-FL	159	1.0	       1.80e+006	BR-FL/BR	 60.3%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 14:45:29	new sample	BR	248	1.0	       2.77e+006	  	  	  6.6	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 14:45:29	new sample	FL	141	1.0	       1.55e+006	  	  	  4.8	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 14:45:29	new sample	BR-FL	107	1.0	       1.22e+006	BR-FL/BR	 44.0%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 14:46:49	new sample	BR	256	1.0	       2.84e+006	  	  	  5.9	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 14:46:49	new sample	FL	162	1.0	       1.77e+006	  	  	  4.4	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 14:46:49	new sample	BR-FL	94	1.0	       1.06e+006	BR-FL/BR	 37.5%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 14:48:24	new sample	BR	250	1.0	       2.78e+006	  	  	  6.1	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 14:48:24	new sample	FL	146	1.0	       1.60e+006	  	  	  4.2	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 14:48:24	new sample	BR-FL	104	1.0	       1.18e+006	BR-FL/BR	 42.5%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 14:49:59	new sample	BR	282	1.0	       3.14e+006	  	  	  6.5	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 14:49:59	new sample	FL	96	1.0	       1.05e+006	  	  	  4.4	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 14:49:59	new sample	BR-FL	186	1.0	       2.09e+006	BR-FL/BR	 66.5%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 14:51:11	new sample	BR	250	1.0	       2.78e+006	  	  	  6.4	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 14:51:11	new sample	FL	133	1.0	       1.45e+006	  	  	  3.9	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 14:51:11	new sample	BR-FL	117	1.0	       1.33e+006	BR-FL/BR	 47.9%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 14:53:01	new sample	BR	184	1.0	       2.04e+006	  	  	  6.1	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 14:53:01	new sample	FL	132	1.0	       1.44e+006	  	  	  3.9	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 14:53:01	new sample	BR-FL	52	1.0	       6.03e+005	BR-FL/BR	 29.5%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 14:54:26	new sample	BR	242	1.0	       2.68e+006	  	  	  5.6	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 14:54:26	new sample	FL	152	1.0	       1.66e+006	  	  	  4.0	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 14:54:26	new sample	BR-FL	90	1.0	       1.02e+006	BR-FL/BR	 38.0%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 14:58:11	new sample	BR	209	1.0	       2.33e+006	  	  	  6.7	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 14:58:11	new sample	FL	138	1.0	       1.51e+006	  	  	  4.3	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 14:58:11	new sample	BR-FL	71	1.0	       8.21e+005	BR-FL/BR	 35.2%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 14:59:45	new sample	BR	220	1.0	       2.44e+006	  	  	  6.2	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 14:59:45	new sample	FL	149	1.0	       1.63e+006	  	  	  4.0	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 14:59:45	new sample	BR-FL	71	1.0	       8.17e+005	BR-FL/BR	 33.4%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 15:01:27	new sample	BR	265	1.0	       2.95e+006	  	  	  6.6	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 15:01:27	new sample	FL	108	1.0	       1.19e+006	  	  	  4.7	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 15:01:27	new sample	BR-FL	157	1.0	       1.77e+006	BR-FL/BR	 59.9%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 15:03:06	new sample	BR	261	1.0	       2.91e+006	  	  	  6.6	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 15:03:06	new sample	FL	119	1.0	       1.31e+006	  	  	  4.8	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 15:03:06	new sample	BR-FL	142	1.0	       1.60e+006	BR-FL/BR	 55.1%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 15:05:30	new sample	BR	270	1.0	       3.00e+006	  	  	  6.1	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 15:05:30	new sample	FL	167	1.0	       1.83e+006	  	  	  4.3	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 15:05:30	new sample	BR-FL	103	1.0	       1.17e+006	BR-FL/BR	 39.0%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 15:06:57	new sample	BR	276	1.0	       3.07e+006	  	  	  6.4	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 15:06:57	new sample	FL	159	1.0	       1.74e+006	  	  	  4.7	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 15:06:57	new sample	BR-FL	117	1.0	       1.33e+006	BR-FL/BR	 43.2%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 15:08:53	new sample	BR	178	1.0	       1.98e+006	  	  	  6.0	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 15:08:53	new sample	FL	118	1.0	       1.29e+006	  	  	  4.5	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 15:08:53	new sample	BR-FL	60	1.0	       6.82e+005	BR-FL/BR	 34.5%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 15:10:11	new sample	BR	178	1.0	       1.97e+006	  	  	  5.7	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 15:10:11	new sample	FL	141	1.0	       1.54e+006	  	  	  4.3	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 15:10:11	new sample	BR-FL	37	1.0	       4.27e+005	BR-FL/BR	 21.7%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 15:11:54	new sample	BR	219	1.0	       2.42e+006	  	  	  5.8	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 15:11:54	new sample	FL	155	1.0	       1.69e+006	  	  	  4.2	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 15:11:54	new sample	BR-FL	64	1.0	       7.30e+005	BR-FL/BR	 30.1%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 15:13:14	new sample	BR	163	1.0	       1.82e+006	  	  	  6.6	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 15:13:14	new sample	FL	147	1.0	       1.61e+006	  	  	  4.3	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 15:13:14	new sample	BR-FL	16	1.0	       2.09e+005	BR-FL/BR	 11.5%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 15:15:10	new sample	BR	245	1.0	       2.72e+006	  	  	  6.3	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 15:15:10	new sample	FL	161	1.0	       1.76e+006	  	  	  4.0	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 15:15:10	new sample	BR-FL	84	1.0	       9.66e+005	BR-FL/BR	 35.5%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 15:16:36	new sample	BR	262	1.0	       2.93e+006	  	  	  6.9	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 15:16:36	new sample	FL	163	1.0	       1.78e+006	  	  	  4.2	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 15:16:36	new sample	BR-FL	99	1.0	       1.14e+006	BR-FL/BR	 39.1%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 15:18:25	new sample	BR	253	1.0	       2.82e+006	  	  	  6.6	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 15:18:25	new sample	FL	144	1.0	       1.58e+006	  	  	  4.5	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 15:18:25	new sample	BR-FL	109	1.0	       1.24e+006	BR-FL/BR	 44.0%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 15:19:49	new sample	BR	248	1.0	       2.75e+006	  	  	  6.2	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 15:19:49	new sample	FL	177	1.0	       1.93e+006	  	  	  4.1	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 15:19:49	new sample	BR-FL	71	1.0	       8.20e+005	BR-FL/BR	 29.8%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 15:21:49	new sample	BR	243	1.0	       2.69e+006	  	  	  5.8	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 15:21:49	new sample	FL	161	1.0	       1.76e+006	  	  	  4.1	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 15:21:49	new sample	BR-FL	82	1.0	       9.32e+005	BR-FL/BR	 34.6%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 15:28:17	new sample	BR	256	1.0	       2.85e+006	  	  	  6.5	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 15:28:17	new sample	FL	95	1.0	       1.05e+006	  	  	  5.3	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 15:28:17	new sample	BR-FL	161	1.0	       1.80e+006	BR-FL/BR	 63.3%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 15:30:10	new sample	BR	264	1.0	       2.92e+006	  	  	  5.8	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 15:30:10	new sample	FL	131	1.0	       1.43e+006	  	  	  4.2	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 15:30:10	new sample	BR-FL	133	1.0	       1.49e+006	BR-FL/BR	 51.0%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 15:31:30	new sample	BR	272	1.0	       3.02e+006	  	  	  6.1	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 15:31:30	new sample	FL	171	1.0	       1.87e+006	  	  	  4.2	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 15:31:30	new sample	BR-FL	101	1.0	       1.15e+006	BR-FL/BR	 38.0%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 15:33:13	new sample	BR	174	1.0	       1.93e+006	  	  	  5.7	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 15:33:13	new sample	FL	161	1.0	       1.76e+006	  	  	  4.0	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 15:33:13	new sample	BR-FL	13	1.0	       1.69e+005	BR-FL/BR	  8.8%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 15:35:01	new sample	BR	252	1.0	       2.80e+006	  	  	  6.4	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 15:35:01	new sample	FL	117	1.0	       1.28e+006	  	  	  4.6	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 15:35:01	new sample	BR-FL	135	1.0	       1.52e+006	BR-FL/BR	 54.2%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 15:36:46	new sample	BR	202	1.0	       2.24e+006	  	  	  5.8	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 15:36:46	new sample	FL	143	1.0	       1.56e+006	  	  	  4.3	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 15:36:46	new sample	BR-FL	59	1.0	       6.73e+005	BR-FL/BR	 30.1%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 15:38:25	new sample	BR	233	1.0	       2.58e+006	  	  	  5.7	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 15:38:25	new sample	FL	154	1.0	       1.68e+006	  	  	  3.8	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 15:38:25	new sample	BR-FL	79	1.0	       8.99e+005	BR-FL/BR	 34.9%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 15:40:20	new sample	BR	222	1.0	       2.48e+006	  	  	  6.7	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 15:40:20	new sample	FL	144	1.0	       1.57e+006	  	  	  4.1	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 15:40:20	new sample	BR-FL	78	1.0	       9.02e+005	BR-FL/BR	 36.4%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 15:41:51	new sample	BR	268	1.0	       2.99e+006	  	  	  6.8	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 15:41:51	new sample	FL	115	1.0	       1.26e+006	  	  	  4.7	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 15:41:51	new sample	BR-FL	153	1.0	       1.73e+006	BR-FL/BR	 57.8%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 15:43:35	new sample	BR	234	1.0	       2.60e+006	  	  	  6.2	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 15:43:35	new sample	FL	155	1.0	       1.69e+006	  	  	  4.1	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 15:43:35	new sample	BR-FL	79	1.0	       9.06e+005	BR-FL/BR	 34.9%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 15:44:59	new sample	BR	189	1.0	       2.10e+006	  	  	  6.0	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 15:44:59	new sample	FL	162	1.0	       1.77e+006	  	  	  3.8	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 15:44:59	new sample	BR-FL	27	1.0	       3.31e+005	BR-FL/BR	 15.8%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 15:46:32	new sample	BR	124	1.0	       1.37e+006	  	  	  5.8	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 15:46:32	new sample	FL	146	1.0	       1.59e+006	  	  	  3.9	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 15:46:32	new sample	BR-FL	-22	1.0	      -2.18e+005	BR-FL/BR	-15.9%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 15:47:58	new sample	BR	236	1.0	       2.63e+006	  	  	  6.6	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 15:47:58	new sample	FL	154	1.0	       1.68e+006	  	  	  4.0	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 15:47:58	new sample	BR-FL	82	1.0	       9.49e+005	BR-FL/BR	 36.1%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 15:57:49	new sample	BR	168	1.0	       1.85e+006	  	  	  5.3	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 15:57:49	new sample	FL	98	1.0	       1.08e+006	  	  	  4.7	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 15:57:49	new sample	BR-FL	70	1.0	       7.78e+005	BR-FL/BR	 42.0%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 15:59:00	new sample	BR	229	1.0	       2.53e+006	  	  	  5.7	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 15:59:00	new sample	FL	143	1.0	       1.56e+006	  	  	  4.2	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 15:59:00	new sample	BR-FL	86	1.0	       9.70e+005	BR-FL/BR	 38.3%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 16:00:41	new sample	BR	207	1.0	       2.30e+006	  	  	  6.0	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 16:00:41	new sample	FL	141	1.0	       1.55e+006	  	  	  4.6	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 16:00:41	new sample	BR-FL	66	1.0	       7.50e+005	BR-FL/BR	 32.6%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 16:02:15	new sample	BR	183	1.0	       2.03e+006	  	  	  6.1	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 16:02:15	new sample	FL	120	1.0	       1.31e+006	  	  	  4.0	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 16:02:15	new sample	BR-FL	63	1.0	       7.21e+005	BR-FL/BR	 35.5%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 16:04:07	new sample	BR	230	1.0	       2.55e+006	  	  	  5.9	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 16:04:07	new sample	FL	131	1.0	       1.43e+006	  	  	  4.4	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 16:04:07	new sample	BR-FL	99	1.0	       1.12e+006	BR-FL/BR	 43.8%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 16:05:33	new sample	BR	257	1.0	       2.86e+006	  	  	  6.4	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 16:05:33	new sample	FL	149	1.0	       1.63e+006	  	  	  4.2	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 16:05:33	new sample	BR-FL	108	1.0	       1.23e+006	BR-FL/BR	 43.0%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 16:07:22	new sample	BR	221	1.0	       2.45e+006	  	  	  6.0	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 16:07:22	new sample	FL	157	1.0	       1.72e+006	  	  	  4.3	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 16:07:22	new sample	BR-FL	64	1.0	       7.34e+005	BR-FL/BR	 29.9%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 16:08:45	new sample	BR	257	1.0	       2.85e+006	  	  	  5.9	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 16:08:45	new sample	FL	148	1.0	       1.62e+006	  	  	  4.0	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 16:08:45	new sample	BR-FL	109	1.0	       1.23e+006	BR-FL/BR	 43.3%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 16:10:25	new sample	BR	212	1.0	       2.35e+006	  	  	  5.7	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 16:10:25	new sample	FL	149	1.0	       1.62e+006	  	  	  3.6	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 16:10:25	new sample	BR-FL	63	1.0	       7.23e+005	BR-FL/BR	 30.8%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 16:12:10	new sample	BR	269	1.0	       2.99e+006	  	  	  6.2	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 16:12:10	new sample	FL	160	1.0	       1.75e+006	  	  	  4.1	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 16:12:10	new sample	BR-FL	109	1.0	       1.24e+006	BR-FL/BR	 41.5%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 16:13:48	new sample	BR	175	1.0	       1.94e+006	  	  	  6.2	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 16:13:48	new sample	FL	153	1.0	       1.67e+006	  	  	  3.9	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 16:13:48	new sample	BR-FL	22	1.0	       2.75e+005	BR-FL/BR	 14.1%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 16:15:20	new sample	BR	262	1.0	       2.91e+006	  	  	  6.0	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 16:15:20	new sample	FL	174	1.0	       1.90e+006	  	  	  4.1	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 16:15:20	new sample	BR-FL	88	1.0	       1.01e+006	BR-FL/BR	 34.6%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 16:17:41	new sample	BR	272	1.0	       3.05e+006	  	  	  7.2	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 16:17:41	new sample	FL	141	1.0	       1.54e+006	  	  	  4.3	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 16:17:41	new sample	BR-FL	131	1.0	       1.50e+006	BR-FL/BR	 49.3%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 16:19:17	new sample	BR	266	1.0	       2.96e+006	  	  	  6.4	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 16:19:17	new sample	FL	145	1.0	       1.58e+006	  	  	  4.2	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 16:19:17	new sample	BR-FL	121	1.0	       1.38e+006	BR-FL/BR	 46.5%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 17:00:16	new sample	BR	241	1.0	       2.69e+006	  	  	  7.0	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 17:00:16	new sample	FL	62	1.0	       6.85e+005	  	  	  5.5	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 17:00:16	new sample	BR-FL	179	1.0	       2.01e+006	BR-FL/BR	 74.6%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 17:01:58	new sample	BR	234	1.0	       2.60e+006	  	  	  6.1	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 17:01:58	new sample	FL	110	1.0	       1.20e+006	  	  	  4.0	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 17:01:58	new sample	BR-FL	124	1.0	       1.40e+006	BR-FL/BR	 53.8%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 17:04:40	new sample	BR	224	1.0	       2.49e+006	  	  	  6.2	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 17:04:40	new sample	FL	158	1.0	       1.72e+006	  	  	  3.9	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 17:04:40	new sample	BR-FL	66	1.0	       7.65e+005	BR-FL/BR	 30.7%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 17:06:29	new sample	BR	215	1.0	       2.39e+006	  	  	  6.4	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 17:06:29	new sample	FL	120	1.0	       1.31e+006	  	  	  4.0	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 17:06:29	new sample	BR-FL	95	1.0	       1.08e+006	BR-FL/BR	 45.3%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 17:08:45	new sample	BR	252	1.0	       2.80e+006	  	  	  6.2	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 17:08:45	new sample	FL	161	1.0	       1.75e+006	  	  	  3.8	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 17:08:45	new sample	BR-FL	91	1.0	       1.04e+006	BR-FL/BR	 37.3%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 17:10:31	new sample	BR	248	1.0	       2.75e+006	  	  	  6.0	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 17:10:31	new sample	FL	141	1.0	       1.54e+006	  	  	  4.0	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 17:10:31	new sample	BR-FL	107	1.0	       1.21e+006	BR-FL/BR	 44.1%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 17:11:56	new sample	BR	148	1.0	       1.64e+006	  	  	  5.9	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 17:11:56	new sample	FL	131	1.0	       1.43e+006	  	  	  4.1	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 17:11:56	new sample	BR-FL	17	1.0	       2.09e+005	BR-FL/BR	 12.8%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 17:13:32	new sample	BR	232	1.0	       2.57e+006	  	  	  5.8	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 17:13:32	new sample	FL	148	1.0	       1.61e+006	  	  	  3.9	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 17:13:32	new sample	BR-FL	84	1.0	       9.56e+005	BR-FL/BR	 37.2%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 17:15:06	new sample	BR	197	1.0	       2.18e+006	  	  	  5.7	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 17:15:06	new sample	FL	119	1.0	       1.30e+006	  	  	  4.0	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 17:15:06	new sample	BR-FL	78	1.0	       8.82e+005	BR-FL/BR	 40.4%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 17:16:44	new sample	BR	209	1.0	       2.32e+006	  	  	  6.2	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 17:16:44	new sample	FL	145	1.0	       1.58e+006	  	  	  4.1	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 17:16:44	new sample	BR-FL	64	1.0	       7.38e+005	BR-FL/BR	 31.8%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 17:18:06	new sample	BR	174	1.0	       1.94e+006	  	  	  6.4	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 17:18:06	new sample	FL	147	1.0	       1.60e+006	  	  	  4.0	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 17:18:06	new sample	BR-FL	27	1.0	       3.31e+005	BR-FL/BR	 17.1%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 17:20:03	new sample	BR	252	1.0	       2.80e+006	  	  	  6.0	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 17:20:03	new sample	FL	147	1.0	       1.60e+006	  	  	  4.0	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 17:20:03	new sample	BR-FL	105	1.0	       1.19e+006	BR-FL/BR	 42.6%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 17:21:32	new sample	BR	203	1.0	       2.25e+006	  	  	  5.8	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 17:21:32	new sample	FL	146	1.0	       1.59e+006	  	  	  4.0	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 17:21:32	new sample	BR-FL	57	1.0	       6.55e+005	BR-FL/BR	 29.1%	 	Feeding Trial 1 SS_low conc	Algae RC
+
+06/13/2014 17:23:12	new sample	BR	270	1.0	       2.99e+006	  	  	  6.0	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 17:23:12	new sample	FL	166	1.0	       1.81e+006	  	  	  3.8	Feeding Trial 1 SS_low conc	Algae RC
+06/13/2014 17:23:12	new sample	BR-FL	104	1.0	       1.19e+006	BR-FL/BR	 39.6%	 	Feeding Trial 1 SS_low conc	Algae RC
+

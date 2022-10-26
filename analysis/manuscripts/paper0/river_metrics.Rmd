@@ -1,0 +1,66 @@
+---
+title: "Summary of River Metrics"
+author: "Bradley Saul"
+date: "August 24, 2014"
+output: beamer_presentation
+---
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, include=FALSE}
+library(elktoe)
+#river$date_ <- mdy(river$date)
+elktoe <- subset(mussels_wide, species == 'A. raveneliana')
+elktoe <- elktoe[order(elktoe$river, decreasing = TRUE), ]
+```
+
+## River Metrics
+
+- Graphical summaries of river metrics (orange = Tuckasegee, green = Little TN).
+- Each line on the plot is a different site.
+- Breaks in the plots indicates measurements not taken during those times.
+- Dashed vertical lines represent 4/2/13, 9/19/13, and 5/6/14, respectively.
+
+## Dissolved Oxygen 
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+river_plot('do') 
+```
+
+## Temperature
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+river_plot('temp')
+```
+
+## Temparature (button logger)
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+rp <- ggplot(button[button$qc_flag != 1 & !is.na(button$temp) , ], aes(x = date_time, 
+                                                y = temp, 
+                                                group = site,
+                                                color = river)) +
+  geom_line() +
+  geom_vline(xintercept = as.numeric(ymd(c('2013-04-02',
+                                           '2013-09-19',
+                                           '2014-05-06'))),
+               linetype = c(4, 3, 3),
+               size = c(.5, .5, 1)) + 
+    scale_color_brewer(palette = 'Set2') + 
+    scale_shape_manual(guide = 'none', values = c(1,2)) +
+    xlab('') +
+    theme_classic() +
+    theme(legend.key = element_blank(), legend.title = element_blank())
+  print(rp)
+```
+
+## Turbidity
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+river_plot('turb')
+```
+
+## pH
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+river_plot('ph')
+```
+

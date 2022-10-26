@@ -1,0 +1,32 @@
+---
+title: "Metabolomics analysis"
+output: pdf_document
+---
+
+# Preprocessing
+
+* TBD at later time: 
+
+# Analysis
+
+* Dimension reduction
+    * Wavelet filter 
+    * Principal components 
+    * supervised SVD 
+* Independent components
+    - Include covariates and estimates in IC algorithm?
+    - or check ICs against covariates post-hoc?
+
+SVD the observed $\mathbf{Y}_{n \times p}$:
+
+\[
+\mathbf{Y} = \mathbf{U}_{n \times m}\mathbf{D}_{m \times m}\mathbf{X}\mathbf{m \times p}
+\]
+
+Then:
+
+\[
+\mathbf{X} = \mathbf{A}_{m \times m}\mathbf{S}_{m \times p}
+\]
+
+
